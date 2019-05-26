@@ -18,3 +18,4 @@ git diff #(unstaged)的修改部分和上个已经commit的文件
 git branch pytorch  #建立pytorch分支
 git branch          #查看当前分支
 git checkout dev    #切换dev分支
+
