@@ -4,6 +4,9 @@ git log     #查看修改记录
 git status  #能在status中看到修改还没被提交的信息
 
 git add readme.txt #增加readme.txt文件到git中
+git commit -m "some information" #添加(add)到可被提交(commit)的状态 即stage状态
+
+git diff #(unstaged)的修改部分和上个已经commit的文件
 
 
 提交推送到github中；
