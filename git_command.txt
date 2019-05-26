@@ -1,0 +1,12 @@
+
+
+git log     #查看修改记录
+git status  #能在status中看到修改还没被提交的信息
+
+git add readme.txt #增加readme.txt文件到git中
+
+
+提交推送到github中；
+1.git remote add origin https://github.com/lemianli/record_something.git
+2.git push -u origin master  # 推送本地master去origin
+  git push -u origin dev     # 推送本地 dev 去origin
