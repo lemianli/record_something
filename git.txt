@@ -1,0 +1,22 @@
+1、初始化一个Git仓库，使用git init命令。
+添加文件到Git仓库，分两步：
+    使用命令git add <file>，注意，可反复多次使用，添加多个文件；
+    使用命令git commit -m <message>，完成。
+
+
+git log # 输出记录修改的信息
+git status #看到修改还没被提交的信息
+
+git add 1.py  #这次修改添加(add)到可被提交(commit)的状态
+git commit -m "change 1"  #再提交(commit)这次的修改
+
+git diff # 这次还没add(unstaged)的修改部分 
+
+git add . #add全部修改文件,文件变成了“可提交状态”(staged),
+git diff --cached
+
+git diff HEAD   # staged & unstaged
+git diff        # unstaged 
+git diff --cached # staged
+
+web:https://www.cnblogs.com/wx1993/p/6646973.html
