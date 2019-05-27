@@ -18,5 +18,3 @@ git diff --cached
 git diff HEAD   # staged & unstaged
 git diff        # unstaged 
 git diff --cached # staged
-
-web:https://www.cnblogs.com/wx1993/p/6646973.html
